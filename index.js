@@ -4,11 +4,11 @@ var measurements = [
   "cup",
   "lb",
   "tbsp",
-  "a sprinkle",
-  "a dash",
+  "a sprinkle of",
+  "a dash of",
   "gal",
-  "a dusting",
-  "slices",
+  "a dusting of",
+  "slices of",
 ];
 var endOfLetter = ["love", "xo", "will you be my valentine?", "<3"];
 
@@ -18,11 +18,11 @@ function addIngredientsFromList(listToAdd) {
     let howMany = "";
     let units = measurements[Math.floor(Math.random() * measurements.length)];
     if (units[0] !== "a") {
-      howMany = `${Math.floor(Math.random() * 8 + 1)}`;
+      howMany = `${Math.floor(Math.random() * 8 + 1)} `;
     } else if (units === "slices") {
-      howMany = `${Math.floor(Math.random() * 8 + 2)}`;
+      howMany = `${Math.floor(Math.random() * 8 + 2)} `;
     }
-    ingredientsList += `<pre class="tab1">${howMany} ${units} ${listToAdd[i]}</pre>`;
+    ingredientsList += `<pre class="tab1">${howMany}${units} ${listToAdd[i]}</pre>`;
   }
   return ingredientsList;
 }
