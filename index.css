@@ -18,9 +18,13 @@ h1 {
   background-color: #c72b50;
   color: ghostwhite;
 }
+#buttonContainer {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
 .card {
   border-radius: 5px; /* 5px rounded corners */
   border-color: #c72b50;
   border-style: solid;
-  padding: 10%;
+  padding: 5%;
 }
