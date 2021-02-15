@@ -10,7 +10,7 @@ var measurements = [
   "a dusting of",
   "slices of",
 ];
-var endOfLetter = ["love", "xo", "will you be my valentine?", "<3"];
+var endOfLetter = ["Love", "xo", "Will you be my valentine?", "<3"];
 
 function addIngredientsFromList(listToAdd) {
   ingredientsList = "";
@@ -36,7 +36,6 @@ function showRecipe() {
   var physical = Array.from(
     document.getElementById("physical").selectedOptions
   ).map((el) => el.value);
-  console.log(physical);
   var necessary = document.getElementById("necessary").value;
   var sender = document.getElementById("sender").value;
 
@@ -52,15 +51,14 @@ function showRecipe() {
     addIngredientsFromList(physical) +
     addIngredientsFromList([necessary]);
 
-  var recipe = `${title}
-  <br>
-  ${ingredientsList}
-  <br>
-  ...
-  <br>
-  ${instructions}
-  <br>
-  ${signed}
-  `;
-  display.innerHTML = recipe;
+  var recipeCard = `
+  <div class="card">
+    <div class="container">
+      <div>${title}</div>
+      <div>${ingredientsList}</div>
+      <div>${instructions}</div>
+      <div>${signed}</div>
+    </div>
+  </div>`;
+  display.innerHTML = recipeCard;
 }
