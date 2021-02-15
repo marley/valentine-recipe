@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  background-color: ghostwhite;
+  color: #c72b50;
+  margin: 2%;
+}
+#attribution {
+  text-align: right;
+}
+h1 {
+  text-align: center;
+}
+.tab1 {
+  tab-size: 4;
+}
+#submitButton {
+  background-color: #c72b50;
+  color: ghostwhite;
+}
+.card {
+  border-radius: 5px; /* 5px rounded corners */
+  border-color: #c72b50;
+  border-style: solid;
+  padding: 10%;
+}
