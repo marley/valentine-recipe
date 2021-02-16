@@ -42,6 +42,10 @@ STEP 2 - Submit to reveal the recipe for your valentine!
 
 ![Step 2, output](https://github.com/marley/valentine-recipe/blob/master/images/generated-card.png)
 
+# Next Steps
+
+- [ ] Add field validations and error messages to help user fill out form correctly
+
 # Helpful Links
 
 - [Making a website mobile friendly](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
