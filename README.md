@@ -36,11 +36,11 @@ A little further...
 
 STEP 1 - Fill out form
 
-![Step 1, filling out form](https://github.com/marley/valentine-recipe/blob/master/images/form-filled.png)
+![Step 1, filling out form](https://github.com/marley/valentine-recipe/blob/master/images/form.png)
 
 STEP 2 - Submit to reveal the recipe for your valentine!
 
-![Step 2, output](https://github.com/marley/valentine-recipe/blob/master/images/recipe-output.png)
+![Step 2, output](https://github.com/marley/valentine-recipe/blob/master/images/generated-card.png)
 
 # Helpful Links
 
