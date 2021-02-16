@@ -1,8 +1,10 @@
 body {
-  display: flex;
-  justify-content: space-between;
   background-color: ghostwhite;
   color: #c72b50;
+  display: flex;
+  /* justify-content: space-between; */
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
   margin: 2%;
 }
 #attribution {
