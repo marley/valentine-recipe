@@ -2,7 +2,6 @@ body {
   background-color: ghostwhite;
   color: #c72b50;
   display: flex;
-  /* justify-content: space-between; */
   font-family: "Roboto", sans-serif;
   justify-content: center;
   margin: 2%;
@@ -13,17 +12,21 @@ body {
 h1 {
   text-align: center;
 }
+label {
+  display: block;
+}
+div {
+  margin-bottom: 2%;
+}
 .tab1 {
   tab-size: 4;
 }
 #submitButton {
+  font-size: medium;
   background-color: #c72b50;
   color: ghostwhite;
 }
-#buttonContainer {
-  margin-top: 2%;
-  margin-bottom: 5%;
-}
+
 .card {
   border-radius: 5px; /* 5px rounded corners */
   border-color: #c72b50;

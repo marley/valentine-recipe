@@ -16,8 +16,7 @@
         </div>
         <div>
           <label for="relationship">What is their relation to you:</label>
-          <small for="relationship">(e.g. partner, mom, bff)</small>
-          <input type="text" id="relationship" name="relationship">
+          <input type="text" id="relationship" name="relationship" placeholder="partner, mom, bff">
         </div>
         <div>
           <label for="descriptor">Choose a word to describe them:</label>
@@ -33,7 +32,7 @@
         </div>
         <div>
           <label for="personality">Pick 3 personality traits:</label>
-          <select id="personality" name="personality" multiple>
+          <select id="personality" name="personality" multiple="" class="ui fluid dropdown">
             <option value="Brave">Brave</option>
             <option value="Caring">Caring</option>
             <option value="Generous">Generous</option>
@@ -49,8 +48,7 @@
           </select>
         </div>
         <div>
-          <label for="physical">Pick 3 physical traits:</label>
-          <small for="physical">(romantic valentines only)</small>
+          <label for="physical">Pick 3 physical traits <small>(romantic valentine)</small>:</label>
           <select id="physical" name="physical" multiple>
             <option value="Beautiful eyes">Beautiful eyes</option>
             <option value="Soft lips">Soft lips</option>
@@ -95,9 +93,7 @@
         </div>
         <div>
     </form>
-    <div id="buttonContainer">
-      <button id="submitButton" type="button" onclick="showRecipe()">Create Card</button>
-    </div>
+    <button id="submitButton" type="button" onclick="showRecipe()">Create Card</button>
     <p id="display"></p>
   </body>
   <script src="index.js"></script>
