@@ -36,7 +36,7 @@ A little further...
 
 STEP 1 - Fill out form
 
-![Step 1, filling out form](https://github.com/marley/valentine-recipe/blob/master/images/form.png)
+![Step 1, filling out form](https://github.com/marley/valentine-recipe/blob/master/images/form-filled.png)
 
 STEP 2 - Submit to reveal the recipe for your valentine!
 
