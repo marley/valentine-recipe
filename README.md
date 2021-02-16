@@ -2,9 +2,9 @@
 
 Not sure how to write a valentine? Look no further, this tool will create the perfect 'quirky' & 'creative' valentine recipe for you.
 
-Try it out [here](https://marley.github.io/valentine-recipe/)!
+- [Generate your own valentine recipe card](https://marley.github.io/valentine-recipe/)!
 
-Interact with the code on [CodePen](https://codepen.io/javanaut/pen/VwmPGYM)!
+- [Edit the code](https://codepen.io/javanaut/pen/VwmPGYM)!
 
 # Media
 
@@ -45,3 +45,4 @@ STEP 2 - Submit to reveal the recipe for your valentine!
 # Helpful Links
 
 - [Making a website mobile friendly](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+- [Improving website accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
